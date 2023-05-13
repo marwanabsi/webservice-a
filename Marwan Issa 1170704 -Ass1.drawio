@@ -1,0 +1,70 @@
+<mxfile host="Electron" modified="2023-05-13T11:01:46.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="1y7OBjM9XTG46d8ZrovZ" version="21.2.8" type="device">
+  <diagram name="Page-1" id="eVOaYKZbMUyyP_8s6r7Z">
+    <mxGraphModel dx="1480" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VgalT6u0_m1yvC0JPQQ4-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;Doctor&lt;span style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Söhne Mono&amp;quot;, Monaco, &amp;quot;Andale Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, monospace; font-size: 14px; text-align: left; background-color: rgb(0, 0, 0);&quot;&gt;&lt;/span&gt;&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;doctorId : PK&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;name&lt;/span&gt;&lt;br&gt;&amp;nbsp;contactDetails&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;qualifications&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;age&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VgalT6u0_m1yvC0JPQQ4-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;Patient&amp;nbsp;&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;patientId : PK&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;name&lt;/span&gt;&lt;br&gt;&amp;nbsp;contactDetails&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;age&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;gender&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;medicalHistory&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VgalT6u0_m1yvC0JPQQ4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VgalT6u0_m1yvC0JPQQ4-4" target="VgalT6u0_m1yvC0JPQQ4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VgalT6u0_m1yvC0JPQQ4-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;Appointment&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;appointmentId : PK&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;doctorId : FK (Doctor)&lt;br&gt;&amp;nbsp;patientId : FK (Pationt)&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;dateTime : (DateTime)&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;reason&lt;br&gt;&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VgalT6u0_m1yvC0JPQQ4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.019;entryY=0.608;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VgalT6u0_m1yvC0JPQQ4-5" target="VgalT6u0_m1yvC0JPQQ4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VgalT6u0_m1yvC0JPQQ4-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;Department&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;departmentId : PK&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;name&lt;br&gt;&amp;nbsp;description&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="90" y="330" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VgalT6u0_m1yvC0JPQQ4-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VgalT6u0_m1yvC0JPQQ4-6" target="VgalT6u0_m1yvC0JPQQ4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VgalT6u0_m1yvC0JPQQ4-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;Nurse&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;nurseId : PK&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;name&lt;br&gt;&amp;nbsp;contactDetails&amp;nbsp;&lt;br&gt;&amp;nbsp;qualifications&amp;nbsp;&lt;br&gt;&amp;nbsp;shiftTimings&lt;br&gt;&amp;nbsp;department: (Department)&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="530" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VgalT6u0_m1yvC0JPQQ4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VgalT6u0_m1yvC0JPQQ4-7" target="VgalT6u0_m1yvC0JPQQ4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VgalT6u0_m1yvC0JPQQ4-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;Ward&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;wardId : PK&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;name&lt;br&gt;&amp;nbsp;capacity&lt;br&gt;&amp;nbsp;availability&lt;br&gt;department: (Department)&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="540" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VgalT6u0_m1yvC0JPQQ4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VgalT6u0_m1yvC0JPQQ4-8" target="VgalT6u0_m1yvC0JPQQ4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VgalT6u0_m1yvC0JPQQ4-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;Medication&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;medicationId : PK&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;name&lt;br&gt;&amp;nbsp;instructions&amp;nbsp;&lt;br&gt;&amp;nbsp;stock&amp;nbsp;&lt;br&gt;&amp;nbsp;expirationDate&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="570" y="530" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VgalT6u0_m1yvC0JPQQ4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VgalT6u0_m1yvC0JPQQ4-9" target="VgalT6u0_m1yvC0JPQQ4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VgalT6u0_m1yvC0JPQQ4-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;Lab Test&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;testId : PK&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;name&lt;br&gt;&amp;nbsp;description&amp;nbsp;&lt;br&gt;&amp;nbsp;departmentId : FK (Department)&lt;br&gt;&amp;nbsp;results&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="550" y="330" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VgalT6u0_m1yvC0JPQQ4-16" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="270" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VgalT6u0_m1yvC0JPQQ4-17" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="340" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VgalT6u0_m1yvC0JPQQ4-18" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="500" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VgalT6u0_m1yvC0JPQQ4-19" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="570" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VgalT6u0_m1yvC0JPQQ4-20" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="560" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VgalT6u0_m1yvC0JPQQ4-21" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="460" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
